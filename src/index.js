@@ -21,19 +21,19 @@ class Root extends React.Component {
   	return(
   		<BrowserRouter basename={'/'} >
 		  	<Switch>
-			  <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomeOne}/>
-			  <Route path={`${process.env.PUBLIC_URL}/home-one`} component={HomeOne}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-two`} component={HomeTwo}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-three`} component={HomeThree}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-four`} component={HomeFour}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-five`} component={HomeFive}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-six`} component={HomeSix}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-seven`} component={HomeSeven}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-eight`} component={HomeEight}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-nine`} component={HomeNine}/>  
-			  <Route path={`${process.env.PUBLIC_URL}/login`} component={Login}/>    
-			  <Route path={`${process.env.PUBLIC_URL}/password-forget`} component={PasswordForget}/>  
-			  <Route path={`${process.env.PUBLIC_URL}/sign-up`} component={SignUp}/>  
+			  <Route exact path={`/`} component={HomeOne}/>
+			  <Route path={`/home-one`} component={HomeOne}/>
+			  <Route path={`/home-two`} component={HomeTwo}/>
+			  <Route path={`/home-three`} component={HomeThree}/>
+			  <Route path={`/home-four`} component={HomeFour}/>
+			  <Route path={`/home-five`} component={HomeFive}/>
+			  <Route path={`/home-six`} component={HomeSix}/>
+			  <Route path={`/home-seven`} component={HomeSeven}/>
+			  <Route path={`/home-eight`} component={HomeEight}/>
+			  <Route path={`/home-nine`} component={HomeNine}/>
+			  <Route path={`/login`} component={Login}/>
+			  <Route path={`/password-forget`} component={PasswordForget}/>
+			  <Route path={`/sign-up`} component={SignUp}/>
 			</Switch>
 		</BrowserRouter>
   	);
